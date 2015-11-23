@@ -1,0 +1,63 @@
+﻿@model final.Views.Shared.projectss
+
+@{
+    ViewBag.Title = "Details";
+}
+<div style="color:white">
+    <h2>Details</h2>
+
+    <div>
+        <h4>@Html.DisplayNameFor(model => model.ProjectName)</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+               
+                @Html.DisplayNameFor(model => model.ProjectName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ProjectName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Repsository)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Repsository)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.image)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.image)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.collabs)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.collabs)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+
+
+
+        
+    <p><a class="btn1 btn-md btn-primary" href="http://localhost:53446/home/niceProjects" role="button">Blue Pill</a></p>
+   
+</div>

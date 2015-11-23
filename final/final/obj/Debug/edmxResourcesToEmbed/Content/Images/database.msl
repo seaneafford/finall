@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="databaseStoreContainer" CdmEntityContainer="FinalEntities1">
+    <EntitySetMapping Name="projects">
+      <EntityTypeMapping TypeName="database.project">
+        <MappingFragment StoreEntitySet="projects">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ScreenShot" ColumnName="ScreenShot" />
+          <ScalarProperty Name="Repository" ColumnName="Repository" />
+          <ScalarProperty Name="Collabs" ColumnName="Collabs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
